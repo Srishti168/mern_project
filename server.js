@@ -7,7 +7,7 @@ const usersRoute = require("./routes/userRoute");
 const bookingRoute = require("./routes/bookingRoute");
 const cors = require("cors");
 app.use(cors({
-    origin: "https://mern-front-snowy.vercel.app",
+    origin: "https://suitespot-flame.vercel.app/",
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     preflightContinue: false,
     optionsSuccessStatus: 204,
